@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "hardcore",
+    "hardcore/react",
+    "hardcore/react-testing-library",
+    "hardcore/jest",
+    "hardcore/fp",
+    "hardcore/ts"
+  ],
+
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+
+  "env": {
+    "browser": true
+  },
+
+  "overrides": [
+    {
+      "files": ["server/**/*.ts"],
+      "extends": ["hardcore/node"],
+      "env": {
+        "browser": false
+      }
+    }
+  ]
+}
