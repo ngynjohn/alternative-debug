@@ -1,11 +1,5 @@
-<br>
-<div
-  style="
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-  "  
->
+
+<div align="center">
   <a href="https://nextjs.org">
     <img src="https://assets.vercel.com/image/upload/v1607554385/repositories/next-js/next-logo.png" height="128">
   </a>
@@ -57,7 +51,7 @@
 
 ## Description
 
-[Nest JS](https://github.com/nestjs/nest) and [Next JS](https://github.com/vercel/next.js) full stack typeScript framework for ngynjohn's branding
+[Nest JS](https://github.com/nestjs/nest) and [Next JS](https://github.com/vercel/next.js) for ngynjohn's branding
 
 ## Installation
 
